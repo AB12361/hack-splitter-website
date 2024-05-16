@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Bhardwaj - Hacksplitter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #ff0000; /* Red color for "Hacksplitter" */
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .section-title {
+            font-size: 2em;
+            border-bottom: 2px solid #ff0000;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #000;
+        }
+        .videos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .video {
+            flex: 1 1 calc(33.333% - 20px);
+            background-color: #f4f4f4;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .video iframe {
+            width: 100%;
+            height: 200px;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hacksplitter</h1>
+        <p>Welcome to Aryan Bhardwaj's Video Gallery</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <p>Hi, I'm Aryan Bhardwaj, currently a 12th class student. This is my personal webpage where I upload and share the videos I shoot. I hope you enjoy watching them as much as I enjoy making them!</p>
+        </section>
+
+        <section id="videos">
+            <h2 class="section-title">My Videos</h2>
+            <div class="videos">
+                <!-- Example video embed -->
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/example_video_id" frameborder="0" allowfullscreen></iframe>
+                    <p>Video Title 1</p>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/example_video_id" frameborder="0" allowfullscreen></iframe>
+                    <p>Video Title 2</p>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/example_video_id" frameborder="0" allowfullscreen></iframe>
+                    <p>Video Title 3</p>
+                </div>
+                <!-- Add more video divs as needed -->
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Aryan Bhardwaj | Hacksplitter</p>
+    </footer>
+</body>
+</html>
